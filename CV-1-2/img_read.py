@@ -1,7 +1,7 @@
 import cv2 as cv
 import sys
 
-img = cv.imread("./CV-1-2/dog.jpg")
+img = cv.imread("./img/dog.jpg")
 
 if img is None:
     sys.exit("파일을 찾을 수 없습니다")
