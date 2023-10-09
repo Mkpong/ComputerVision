@@ -3,7 +3,7 @@ import numpy as np
 import sys
 import matplotlib.pyplot as plt
 
-# 감마 함수 정의
+# 감마함수 정의
 def gamma(f, gamma=1.0):
     f1 = f/255.0
     return np.uint8(255*(f1**gamma))
